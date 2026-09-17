@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suntelco Horizon | Grupo de construcción e instalaciones</title>
+<meta name="description" content="Suntelco Horizon es un grupo corporativo multidisciplinar: carpintería de aluminio y PVC, construcción y reformas, e instalaciones de energía, electricidad, climatización y telecomunicaciones.">
+<link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="brand" aria-label="Suntelco Horizon, inicio">
+      <img class="brand__mark brand__mark--light" src="assets/logo-mark-light.svg" alt="" width="33" height="42">
+      <img class="brand__mark brand__mark--dark" src="assets/logo-mark.svg" alt="" width="33" height="42">
+      <span class="brand__text">SUNTELCO<small>HORIZON</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#grupo" data-i18n="nav.grupo">Grupo</a>
+      <a href="#construccion" data-i18n="nav.construccion">Construcción</a>
+      <a href="#instalaciones" data-i18n="nav.instalaciones">Instalaciones</a>
+      <a href="#metodo" data-i18n="nav.metodo">Método</a>
+      <a href="#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+      <a href="#contacto" data-i18n="nav.contacto">Contacto</a>
+      <div class="langs" role="group" aria-label="Idioma / Language">
+        <button data-lang="es" class="is-active">ES</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="ar">ع</button>
+      </div>
+      <a href="#contacto" class="btn btn--primary nav__cta" data-i18n="nav.cta">Presupuesto gratis</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <img class="hero__img" src="https://images.unsplash.com/photo-1523477593243-78bbf626fd3b?auto=format&fit=crop&w=1920&q=80" alt="" fetchpriority="high">
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <p class="kicker kicker--cyan" data-i18n="hero.kicker">Grupo corporativo multidisciplinar · Casablanca</p>
+    <h1 class="hero__title">
+      <span data-i18n="hero.t1">Construimos</span>
+      <span class="outline" data-i18n="hero.t2">el horizonte</span>
+      <span data-i18n="hero.t3">del mañana</span>
+    </h1>
+    <div class="hero__bottom">
+      <p class="hero__lead" data-i18n="hero.lead">Suntelco Horizon integra construcción e instalaciones técnicas bajo un mismo grupo: aluminio, PVC, electricidad, climatización y energía solar, con un único interlocutor.</p>
+      <div class="hero__actions">
+        <a href="#contacto" class="btn btn--primary"><span data-i18n="hero.cta1">Iniciar un proyecto</span> <i class="arrow">↗</i></a>
+        <a href="#grupo" class="btn btn--ghost" data-i18n="hero.cta2">Descubrir el grupo</a>
+      </div>
+    </div>
+    <dl class="stats">
+      <div><dt>02</dt><dd data-i18n="stat.1">Divisiones</dd></div>
+      <div><dt>12</dt><dd data-i18n="stat.2">Especialidades técnicas</dd></div>
+      <div><dt>360º</dt><dd data-i18n="stat.3">Gestión integral</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span data-i18n="m.1">Carpintería de aluminio</span><span data-i18n="m.2">PVC de alta eficiencia</span><span data-i18n="m.3">Fachadas y muros cortina</span><span data-i18n="m.4">Pérgolas y cerramientos</span><span data-i18n="m.5">Reformas integrales</span><span data-i18n="m.6">Obra nueva</span><span data-i18n="m.7">Energía fotovoltaica</span><span data-i18n="m.8">Electricidad</span><span data-i18n="m.9">Climatización</span><span data-i18n="m.10">Fontanería</span><span data-i18n="m.11">Telecomunicaciones</span><span data-i18n="m.12">Protección contra incendios</span>
+    <span data-i18n="m.1">Carpintería de aluminio</span><span data-i18n="m.2">PVC de alta eficiencia</span><span data-i18n="m.3">Fachadas y muros cortina</span><span data-i18n="m.4">Pérgolas y cerramientos</span><span data-i18n="m.5">Reformas integrales</span><span data-i18n="m.6">Obra nueva</span><span data-i18n="m.7">Energía fotovoltaica</span><span data-i18n="m.8">Electricidad</span><span data-i18n="m.9">Climatización</span><span data-i18n="m.10">Fontanería</span><span data-i18n="m.11">Telecomunicaciones</span><span data-i18n="m.12">Protección contra incendios</span>
+  </div>
+</div>
+
+<!-- GRUPO -->
+<section class="section" id="grupo">
+  <div class="container">
+    <p class="kicker reveal" data-i18n="grupo.kicker">El grupo</p>
+    <h2 class="title reveal" data-i18n="grupo.title">Un grupo, dos divisiones, un mismo estándar de excelencia</h2>
+    <div class="grupo__intro reveal">
+      <p data-i18n="grupo.p1">Suntelco Horizon nace de la experiencia de Suntelco en instalaciones y energía, y la amplía con un área propia de construcción y carpintería técnica de aluminio y PVC.</p>
+      <p data-i18n="grupo.p2">El resultado es un grupo capaz de asumir desde la envolvente del edificio hasta la última instalación, coordinando equipos, plazos y calidades sin que el cliente tenga que gestionar varios proveedores.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar reveal">
+        <span class="pillar__num">01</span>
+        <h3 data-i18n="pil.1.t">Visión 360º</h3>
+        <p data-i18n="pil.1.p">Del proyecto a la entrega de llaves: coordinamos obra, carpintería e instalaciones como un único equipo, sin intermediarios ni desfases.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">02</span>
+        <h3 data-i18n="pil.2.t">Precisión técnica</h3>
+        <p data-i18n="pil.2.p">Mediciones exactas, fabricación a medida y materiales certificados. Cada perfil de aluminio y cada cuadro eléctrico responde a un estándar.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">03</span>
+        <h3 data-i18n="pil.3.t">Un solo interlocutor</h3>
+        <p data-i18n="pil.3.p">Un responsable de proyecto planifica ambas divisiones a la vez: menos tiempos muertos entre gremios, plazos y costes controlados.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- DIVISIONES -->
+<section class="divisions-head" id="divisiones">
+  <div class="container">
+    <p class="kicker reveal" data-i18n="div.kicker">Divisiones</p>
+    <h2 class="title reveal" data-i18n="div.title">Dos divisiones. Un solo interlocutor</h2>
+    <p class="subtitle reveal" data-i18n="div.sub">Construcción e instalaciones trabajando bajo el mismo techo: un único responsable para todo tu proyecto.</p>
+  </div>
+</section>
+
+<section class="division division--navy" id="construccion">
+  <div class="container division__inner">
+    <div class="division__text reveal">
+      <p class="kicker kicker--cyan kicker--plain" data-i18n="d1.kicker">División 01</p>
+      <h2 class="division__title" data-i18n="d1.title">Construcción</h2>
+      <p class="division__lead" data-i18n="d1.lead">Carpintería técnica de aluminio y PVC, cerramientos y obra con acabados de alta gama para viviendas, hoteles, comercios e industria.</p>
+      <ul class="checks">
+        <li data-i18n="d1.c1">Carpintería de aluminio a medida</li>
+        <li data-i18n="d1.c2">Carpintería de PVC de alta eficiencia</li>
+        <li data-i18n="d1.c3">Fachadas ligeras y muros cortina</li>
+        <li data-i18n="d1.c4">Pérgolas bioclimáticas y cerramientos de cristal</li>
+        <li data-i18n="d1.c5">Reformas integrales llave en mano</li>
+        <li data-i18n="d1.c6">Obra nueva y edificación</li>
+      </ul>
+      <a href="#contacto" class="btn btn--outline" data-division="1"><span data-i18n="d.cta">Solicitar estudio</span> <i class="arrow">↗</i></a>
+    </div>
+    <figure class="division__media reveal">
+      <img src="https://images.pexels.com/photos/1427532/pexels-photo-1427532.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fachada de aluminio y cristal" loading="lazy">
+      <figcaption data-i18n="d1.kicker">División 01</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="division division--blue" id="instalaciones">
+  <div class="container division__inner division__inner--reverse">
+    <div class="division__text reveal">
+      <p class="kicker kicker--cyan kicker--plain" data-i18n="d2.kicker">División 02</p>
+      <h2 class="division__title" data-i18n="d2.title">Instalaciones</h2>
+      <p class="division__lead" data-i18n="d2.lead">Diseño, legalización, montaje y mantenimiento de las instalaciones técnicas de edificios residenciales, terciarios e industriales.</p>
+      <ul class="checks">
+        <li data-i18n="d2.c1">Energía solar fotovoltaica y baterías</li>
+        <li data-i18n="d2.c2">Electricidad y puntos de recarga</li>
+        <li data-i18n="d2.c3">Climatización, ventilación y aerotermia</li>
+        <li data-i18n="d2.c4">Fontanería y redes de agua</li>
+        <li data-i18n="d2.c5">Telecomunicaciones, CCTV y control de accesos</li>
+        <li data-i18n="d2.c6">Protección contra incendios (PCI)</li>
+      </ul>
+      <a href="#contacto" class="btn btn--outline" data-division="2"><span data-i18n="d.cta">Solicitar estudio</span> <i class="arrow">↗</i></a>
+    </div>
+    <figure class="division__media reveal">
+      <img src="https://images.pexels.com/photos/14613939/pexels-photo-14613939.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Instalación de paneles solares en cubierta" loading="lazy">
+      <figcaption data-i18n="d2.kicker">División 02</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section class="section" id="metodo">
+  <div class="container">
+    <p class="kicker reveal" data-i18n="nav.metodo">Método</p>
+    <h2 class="title reveal" data-i18n="met.title">Cuatro pasos, un solo equipo</h2>
+    <ol class="steps">
+      <li class="reveal"><span>01</span><h3 data-i18n="s1.t">Estudio</h3><p data-i18n="s1.p">Visitamos el espacio, escuchamos tus necesidades y tomamos medidas.</p></li>
+      <li class="reveal"><span>02</span><h3 data-i18n="s2.t">Propuesta</h3><p data-i18n="s2.p">Presupuesto detallado por partidas, con plazos y calidades cerradas.</p></li>
+      <li class="reveal"><span>03</span><h3 data-i18n="s3.t">Ejecución</h3><p data-i18n="s3.p">Fabricación, obra e instalaciones coordinadas por un jefe de proyecto.</p></li>
+      <li class="reveal"><span>04</span><h3 data-i18n="s4.t">Entrega y servicio</h3><p data-i18n="s4.p">Puesta en marcha, documentación, garantía y mantenimiento.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section class="section section--tint" id="proyectos">
+  <div class="container">
+    <div class="projects__head">
+      <div>
+        <p class="kicker reveal" data-i18n="nav.proyectos">Proyectos</p>
+        <h2 class="title reveal" data-i18n="proj.title">Qué hacemos, en imágenes</h2>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Filtrar proyectos">
+        <button class="is-active" data-filter="all" data-i18n="f.all">Todos</button>
+        <button data-filter="construccion" data-i18n="cat.con">Construcción</button>
+        <button data-filter="instalaciones" data-i18n="cat.ins">Instalaciones</button>
+      </div>
+    </div>
+    <div class="projects">
+      <article class="project reveal" data-cat="construccion">
+        <img src="https://images.unsplash.com/photo-1617761141732-d481912af1a9?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+        <div class="project__body"><span data-i18n="cat.con">Construcción</span><h3 data-i18n="p1.t">Fachada ventilada y muro cortina</h3><p data-i18n="p1.p">Edificio de oficinas</p></div>
+      </article>
+      <article class="project reveal" data-cat="instalaciones">
+        <img src="https://images.pexels.com/photos/14613939/pexels-photo-14613939.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" loading="lazy">
+        <div class="project__body"><span data-i18n="cat.ins">Instalaciones</span><h3 data-i18n="p2.t">Planta fotovoltaica de autoconsumo</h3><p data-i18n="p2.p">Nave industrial</p></div>
+      </article>
+      <article class="project reveal" data-cat="construccion">
+        <img src="https://images.pexels.com/photos/1427532/pexels-photo-1427532.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" loading="lazy">
+        <div class="project__body"><span data-i18n="cat.con">Construcción</span><h3 data-i18n="p3.t">Cerramientos de cristal</h3><p data-i18n="p3.p">Complejo hotelero</p></div>
+      </article>
+      <article class="project reveal" data-cat="instalaciones">
+        <img src="https://images.unsplash.com/photo-1660330589693-99889d60181e?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+        <div class="project__body"><span data-i18n="cat.ins">Instalaciones</span><h3 data-i18n="p4.t">Cuadros eléctricos y climatización</h3><p data-i18n="p4.p">Centro logístico</p></div>
+      </article>
+      <article class="project reveal" data-cat="construccion">
+        <img src="https://images.unsplash.com/photo-1599995903128-531fc7fb694b?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+        <div class="project__body"><span data-i18n="cat.con">Construcción</span><h3 data-i18n="p5.t">Reforma integral</h3><p data-i18n="p5.p">Oficinas corporativas</p></div>
+      </article>
+      <article class="project reveal" data-cat="instalaciones">
+        <img src="https://images.pexels.com/photos/8469999/pexels-photo-8469999.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" loading="lazy">
+        <div class="project__body"><span data-i18n="cat.ins">Instalaciones</span><h3 data-i18n="p6.t">Red de datos y telecomunicaciones</h3><p data-i18n="p6.p">Campus empresarial</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact" id="contacto">
+  <div class="container contact__inner">
+    <div class="contact__info reveal">
+      <p class="kicker kicker--cyan" data-i18n="nav.contacto">Contacto</p>
+      <h2 class="title title--light" data-i18n="c.title">Hablemos de tu proyecto</h2>
+      <p class="contact__lead" data-i18n="c.lead">Cuéntanos qué necesitas y la división correspondiente del grupo te responderá con una propuesta.</p>
+      <ul class="contact__list">
+        <li>
+          <i><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.800 7 11 7 11z"/><circle cx="12" cy="10" r="2.500"/></svg></i>
+          <div><small data-i18n="c.office">Oficina</small><bdi>7 Rue Sebta, Rés. Rami, 2ème étage, bureau n° 8 — Casablanca</bdi></div>
+        </li>
+        <li>
+          <i><svg viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg></i>
+          <div><small data-i18n="c.write">Escríbenos</small><a href="mailto:info@suntelcohorizon.com">info@suntelcohorizon.com</a></div>
+        </li>
+        <li>
+          <i><svg viewBox="0 0 24 24"><path d="M9 4L7 20M17 4l-2 16M4 9h17M3 15h17"/></svg></i>
+          <div><small>I.C.E.</small>003952179000091</div>
+        </li>
+      </ul>
+    </div>
+    <form class="form reveal" id="contact-form">
+      <div class="form__row">
+        <label><span data-i18n="f.name">Nombre completo</span><input type="text" name="nombre" required></label>
+        <label><span data-i18n="f.email">Email</span><input type="email" name="email" required></label>
+      </div>
+      <div class="form__row">
+        <label><span data-i18n="f.phone">Teléfono (opcional)</span><input type="tel" name="telefono"></label>
+        <label><span data-i18n="f.division">División</span>
+          <select name="division" id="division">
+            <option data-i18n="o.general">General</option>
+            <option data-i18n="cat.con">Construcción</option>
+            <option data-i18n="cat.ins">Instalaciones</option>
+            <option data-i18n="o.integral">Proyecto integral</option>
+          </select>
+        </label>
+      </div>
+      <label><span data-i18n="f.msg">Mensaje</span><textarea name="mensaje" rows="5" required></textarea></label>
+      <button type="submit" class="btn btn--primary"><span data-i18n="f.send">Enviar consulta</span> <i class="arrow">↗</i></button>
+      <p class="form__note" data-i18n="f.note">Al enviar se abrirá tu aplicación de correo con el mensaje preparado.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#top" class="brand brand--footer">
+        <img src="assets/logo-mark-light.svg" alt="" width="33" height="42">
+        <span class="brand__text">SUNTELCO<small>HORIZON</small></span>
+      </a>
+      <p data-i18n="ft.desc">Grupo corporativo multidisciplinar: construcción e instalaciones técnicas bajo un mismo estándar.</p>
+    </div>
+    <div>
+      <h4 data-i18n="nav.grupo">Grupo</h4>
+      <a href="#grupo" data-i18n="ft.about">Quiénes somos</a>
+      <a href="#metodo" data-i18n="nav.metodo">Método</a>
+      <a href="#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+      <a href="https://suntelco.es" target="_blank" rel="noopener">Suntelco Canarias ↗</a>
+    </div>
+    <div>
+      <h4 data-i18n="div.kicker">Divisiones</h4>
+      <a href="#construccion" data-i18n="cat.con">Construcción</a>
+      <a href="#instalaciones" data-i18n="cat.ins">Instalaciones</a>
+    </div>
+    <div>
+      <h4 data-i18n="nav.contacto">Contacto</h4>
+      <a href="mailto:info@suntelcohorizon.com">info@suntelcohorizon.com</a>
+      <a href="#contacto" data-i18n="ft.quote">Solicitar presupuesto</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year">2026</span> Suntelco Horizon · I.C.E. 003952179000091</span>
+    <span>Casablanca</span>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script>
+  // Header sólido al hacer scroll
+  const header = document.getElementById('header');
+  const onScroll = () => header.classList.toggle('is-solid', scrollY > 40);
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  // Menú móvil
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.getElementById('nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('is-open');
+    header.classList.toggle('is-menu', open);
+    toggle.setAttribute('aria-expanded', open);
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('is-open'); header.classList.remove('is-menu');
+  }));
+
+  // Aparición al hacer scroll
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+  }), { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Filtro de proyectos
+  const filters = document.querySelectorAll('.filters button');
+  filters.forEach(b => b.addEventListener('click', () => {
+    filters.forEach(x => x.classList.toggle('is-active', x === b));
+    document.querySelectorAll('.project').forEach(p =>
+      p.hidden = b.dataset.filter !== 'all' && p.dataset.cat !== b.dataset.filter);
+  }));
+
+  // "Solicitar estudio" preselecciona la división
+  document.querySelectorAll('[data-division]').forEach(a => a.addEventListener('click', () =>
+    document.getElementById('division').selectedIndex = +a.dataset.division));
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  document.getElementById('contact-form').addEventListener('submit', e => {
+    e.preventDefault();
+    const d = new FormData(e.target);
+    const body = ['Nombre: ' + d.get('nombre'), 'Email: ' + d.get('email'), 'Teléfono: ' + d.get('telefono'),
+      'División: ' + d.get('division'), '', d.get('mensaje')].join('\n');
+    location.href = 'mailto:info@suntelcohorizon.com?subject=' +
+      encodeURIComponent('Consulta web · ' + d.get('division')) + '&body=' + encodeURIComponent(body);
+  });
+</script>
+</body>
+</html>

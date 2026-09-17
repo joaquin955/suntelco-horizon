@@ -1,0 +1,186 @@
+// Traducciones. El español es el texto que ya está en index.html.
+const I18N = {
+  en: {
+    'meta.title': 'Suntelco Horizon | Construction & installations group',
+    'nav.grupo': 'Group', 'nav.construccion': 'Construction', 'nav.instalaciones': 'Installations',
+    'nav.metodo': 'Method', 'nav.proyectos': 'Projects', 'nav.contacto': 'Contact', 'nav.cta': 'Free quote',
+    'hero.kicker': 'Multidisciplinary corporate group · Casablanca',
+    'hero.t1': 'We build', 'hero.t2': 'the horizon', 'hero.t3': 'of tomorrow',
+    'hero.lead': 'Suntelco Horizon brings construction and technical installations together in one group: aluminium, PVC, electrical, HVAC and solar energy, with a single point of contact.',
+    'hero.cta1': 'Start a project', 'hero.cta2': 'Discover the group',
+    'stat.1': 'Divisions', 'stat.2': 'Technical specialities', 'stat.3': 'End-to-end management',
+    'm.1': 'Aluminium joinery', 'm.2': 'High-efficiency PVC', 'm.3': 'Façades & curtain walls', 'm.4': 'Pergolas & enclosures',
+    'm.5': 'Full renovations', 'm.6': 'New build', 'm.7': 'Solar PV', 'm.8': 'Electrical', 'm.9': 'HVAC',
+    'm.10': 'Plumbing', 'm.11': 'Telecommunications', 'm.12': 'Fire protection',
+    'grupo.kicker': 'The group',
+    'grupo.title': 'One group, two divisions, one standard of excellence',
+    'grupo.p1': 'Suntelco Horizon grows out of Suntelco’s experience in installations and energy, and extends it with its own construction and technical aluminium and PVC joinery division.',
+    'grupo.p2': 'The result is a group able to take on everything from the building envelope to the last technical installation, coordinating teams, deadlines and quality so the client never has to manage several suppliers.',
+    'pil.1.t': '360º vision', 'pil.1.p': 'From design to handover: we coordinate building work, joinery and installations as a single team, with no middlemen and no gaps.',
+    'pil.2.t': 'Technical precision', 'pil.2.p': 'Exact measurements, made-to-measure manufacturing and certified materials. Every aluminium profile and every electrical panel meets a standard.',
+    'pil.3.t': 'A single point of contact', 'pil.3.p': 'One project manager plans both divisions at once: less idle time between trades, deadlines and costs under control.',
+    'div.kicker': 'Divisions', 'div.title': 'Two divisions. One point of contact',
+    'div.sub': 'Construction and installations working under the same roof: one person responsible for your whole project.',
+    'd1.kicker': 'Division 01', 'd1.title': 'Construction',
+    'd1.lead': 'Technical aluminium and PVC joinery, enclosures and building work with high-end finishes for homes, hotels, retail and industry.',
+    'd1.c1': 'Made-to-measure aluminium joinery', 'd1.c2': 'High-efficiency PVC joinery', 'd1.c3': 'Lightweight façades and curtain walls',
+    'd1.c4': 'Bioclimatic pergolas and glass enclosures', 'd1.c5': 'Turnkey full renovations', 'd1.c6': 'New build and construction',
+    'd.cta': 'Request a survey',
+    'd2.kicker': 'Division 02', 'd2.title': 'Installations',
+    'd2.lead': 'Design, permitting, fitting and maintenance of technical installations for residential, commercial and industrial buildings.',
+    'd2.c1': 'Solar PV and batteries', 'd2.c2': 'Electrical and EV charging points', 'd2.c3': 'Air conditioning, ventilation and heat pumps',
+    'd2.c4': 'Plumbing and water networks', 'd2.c5': 'Telecoms, CCTV and access control', 'd2.c6': 'Fire protection systems',
+    'met.title': 'Four steps, one team',
+    's1.t': 'Survey', 's1.p': 'We visit the site, listen to your needs and take measurements.',
+    's2.t': 'Proposal', 's2.p': 'An itemised quote with fixed deadlines and specifications.',
+    's3.t': 'Delivery', 's3.p': 'Manufacturing, building work and installations coordinated by one project manager.',
+    's4.t': 'Handover & service', 's4.p': 'Commissioning, documentation, warranty and maintenance.',
+    'proj.title': 'What we do, in pictures', 'f.all': 'All', 'cat.con': 'Construction', 'cat.ins': 'Installations',
+    'p1.t': 'Ventilated façade and curtain wall', 'p1.p': 'Office building',
+    'p2.t': 'Self-consumption solar plant', 'p2.p': 'Industrial warehouse',
+    'p3.t': 'Glass enclosures', 'p3.p': 'Hotel complex',
+    'p4.t': 'Electrical panels and HVAC', 'p4.p': 'Logistics centre',
+    'p5.t': 'Full renovation', 'p5.p': 'Corporate offices',
+    'p6.t': 'Data network and telecoms', 'p6.p': 'Business campus',
+    'c.title': 'Let’s talk about your project',
+    'c.lead': 'Tell us what you need and the relevant division of the group will get back to you with a proposal.',
+    'c.office': 'Office', 'c.write': 'Write to us',
+    'f.name': 'Full name', 'f.email': 'Email', 'f.phone': 'Phone (optional)', 'f.division': 'Division', 'f.msg': 'Message',
+    'o.general': 'General', 'o.integral': 'Full project', 'f.send': 'Send enquiry',
+    'f.note': 'Submitting will open your email app with the message ready to send.',
+    'ft.desc': 'Multidisciplinary corporate group: construction and technical installations under one standard.',
+    'ft.about': 'About us', 'ft.quote': 'Request a quote',
+  },
+
+  fr: {
+    'meta.title': 'Suntelco Horizon | Groupe de construction et d’installations',
+    'nav.grupo': 'Groupe', 'nav.construccion': 'Construction', 'nav.instalaciones': 'Installations',
+    'nav.metodo': 'Méthode', 'nav.proyectos': 'Projets', 'nav.contacto': 'Contact', 'nav.cta': 'Devis gratuit',
+    'hero.kicker': 'Groupe multidisciplinaire · Casablanca',
+    'hero.t1': 'Nous bâtissons', 'hero.t2': 'l’horizon', 'hero.t3': 'de demain',
+    'hero.lead': 'Suntelco Horizon réunit construction et installations techniques au sein d’un même groupe : aluminium, PVC, électricité, climatisation et énergie solaire, avec un interlocuteur unique.',
+    'hero.cta1': 'Démarrer un projet', 'hero.cta2': 'Découvrir le groupe',
+    'stat.1': 'Divisions', 'stat.2': 'Spécialités techniques', 'stat.3': 'Gestion intégrale',
+    'm.1': 'Menuiserie aluminium', 'm.2': 'PVC haute performance', 'm.3': 'Façades et murs-rideaux', 'm.4': 'Pergolas et fermetures',
+    'm.5': 'Rénovations complètes', 'm.6': 'Construction neuve', 'm.7': 'Énergie photovoltaïque', 'm.8': 'Électricité', 'm.9': 'Climatisation',
+    'm.10': 'Plomberie', 'm.11': 'Télécommunications', 'm.12': 'Protection incendie',
+    'grupo.kicker': 'Le groupe',
+    'grupo.title': 'Un groupe, deux divisions, une même exigence d’excellence',
+    'grupo.p1': 'Suntelco Horizon est né de l’expérience de Suntelco dans les installations et l’énergie, qu’il complète par une division propre de construction et de menuiserie technique aluminium et PVC.',
+    'grupo.p2': 'Le résultat : un groupe capable de prendre en charge l’enveloppe du bâtiment jusqu’à la dernière installation, en coordonnant équipes, délais et qualité, sans que le client ait à gérer plusieurs prestataires.',
+    'pil.1.t': 'Vision 360º', 'pil.1.p': 'Du projet à la remise des clés : nous coordonnons gros œuvre, menuiserie et installations comme une seule équipe, sans intermédiaires ni décalages.',
+    'pil.2.t': 'Précision technique', 'pil.2.p': 'Relevés exacts, fabrication sur mesure et matériaux certifiés. Chaque profilé aluminium et chaque tableau électrique répond à une norme.',
+    'pil.3.t': 'Un interlocuteur unique', 'pil.3.p': 'Un chef de projet planifie les deux divisions en même temps : moins de temps morts entre corps de métier, délais et coûts maîtrisés.',
+    'div.kicker': 'Divisions', 'div.title': 'Deux divisions. Un seul interlocuteur',
+    'div.sub': 'Construction et installations sous le même toit : un responsable unique pour l’ensemble de votre projet.',
+    'd1.kicker': 'Division 01', 'd1.title': 'Construction',
+    'd1.lead': 'Menuiserie technique aluminium et PVC, fermetures et travaux avec finitions haut de gamme pour logements, hôtels, commerces et industrie.',
+    'd1.c1': 'Menuiserie aluminium sur mesure', 'd1.c2': 'Menuiserie PVC haute performance', 'd1.c3': 'Façades légères et murs-rideaux',
+    'd1.c4': 'Pergolas bioclimatiques et fermetures vitrées', 'd1.c5': 'Rénovations complètes clés en main', 'd1.c6': 'Construction neuve et bâtiment',
+    'd.cta': 'Demander une étude',
+    'd2.kicker': 'Division 02', 'd2.title': 'Installations',
+    'd2.lead': 'Conception, mise en conformité, pose et maintenance des installations techniques de bâtiments résidentiels, tertiaires et industriels.',
+    'd2.c1': 'Solaire photovoltaïque et batteries', 'd2.c2': 'Électricité et bornes de recharge', 'd2.c3': 'Climatisation, ventilation et pompes à chaleur',
+    'd2.c4': 'Plomberie et réseaux d’eau', 'd2.c5': 'Télécoms, vidéosurveillance et contrôle d’accès', 'd2.c6': 'Protection incendie',
+    'met.title': 'Quatre étapes, une seule équipe',
+    's1.t': 'Étude', 's1.p': 'Nous visitons le site, écoutons vos besoins et prenons les mesures.',
+    's2.t': 'Proposition', 's2.p': 'Devis détaillé par postes, avec délais et prestations arrêtés.',
+    's3.t': 'Réalisation', 's3.p': 'Fabrication, travaux et installations coordonnés par un chef de projet.',
+    's4.t': 'Livraison et service', 's4.p': 'Mise en service, documentation, garantie et maintenance.',
+    'proj.title': 'Notre métier, en images', 'f.all': 'Tous', 'cat.con': 'Construction', 'cat.ins': 'Installations',
+    'p1.t': 'Façade ventilée et mur-rideau', 'p1.p': 'Immeuble de bureaux',
+    'p2.t': 'Centrale photovoltaïque en autoconsommation', 'p2.p': 'Bâtiment industriel',
+    'p3.t': 'Fermetures vitrées', 'p3.p': 'Complexe hôtelier',
+    'p4.t': 'Tableaux électriques et climatisation', 'p4.p': 'Centre logistique',
+    'p5.t': 'Rénovation complète', 'p5.p': 'Bureaux d’entreprise',
+    'p6.t': 'Réseau de données et télécoms', 'p6.p': 'Campus d’entreprise',
+    'c.title': 'Parlons de votre projet',
+    'c.lead': 'Dites-nous ce dont vous avez besoin et la division concernée du groupe vous répondra avec une proposition.',
+    'c.office': 'Bureau', 'c.write': 'Écrivez-nous',
+    'f.name': 'Nom complet', 'f.email': 'E-mail', 'f.phone': 'Téléphone (facultatif)', 'f.division': 'Division', 'f.msg': 'Message',
+    'o.general': 'Général', 'o.integral': 'Projet global', 'f.send': 'Envoyer la demande',
+    'f.note': 'L’envoi ouvrira votre application de messagerie avec le message prêt.',
+    'ft.desc': 'Groupe multidisciplinaire : construction et installations techniques, une même exigence.',
+    'ft.about': 'Qui sommes-nous', 'ft.quote': 'Demander un devis',
+  },
+
+  ar: {
+    'meta.title': 'سانتلكو هورايزن | مجموعة البناء والتركيبات',
+    'nav.grupo': 'المجموعة', 'nav.construccion': 'البناء', 'nav.instalaciones': 'التركيبات',
+    'nav.metodo': 'منهجيتنا', 'nav.proyectos': 'المشاريع', 'nav.contacto': 'اتصل بنا', 'nav.cta': 'عرض سعر مجاني',
+    'hero.kicker': 'مجموعة متعددة التخصصات · الدار البيضاء',
+    'hero.t1': 'نبني', 'hero.t2': 'أفق', 'hero.t3': 'الغد',
+    'hero.lead': 'تجمع سانتلكو هورايزن بين البناء والتركيبات التقنية ضمن مجموعة واحدة: الألمنيوم، PVC، الكهرباء، التكييف والطاقة الشمسية، مع مخاطَب واحد.',
+    'hero.cta1': 'ابدأ مشروعك', 'hero.cta2': 'اكتشف المجموعة',
+    'stat.1': 'الأقسام', 'stat.2': 'تخصصاً تقنياً', 'stat.3': 'إدارة متكاملة',
+    'm.1': 'نجارة الألمنيوم', 'm.2': 'PVC عالي الكفاءة', 'm.3': 'الواجهات والجدران الستارية', 'm.4': 'البرجولات والإغلاقات',
+    'm.5': 'ترميم شامل', 'm.6': 'بناء جديد', 'm.7': 'الطاقة الشمسية', 'm.8': 'الكهرباء', 'm.9': 'التكييف',
+    'm.10': 'السباكة', 'm.11': 'الاتصالات', 'm.12': 'الحماية من الحرائق',
+    'grupo.kicker': 'المجموعة',
+    'grupo.title': 'مجموعة واحدة، قسمان، ومعيار واحد للتميّز',
+    'grupo.p1': 'وُلدت سانتلكو هورايزن من خبرة سانتلكو في مجال التركيبات والطاقة، وتوسّعها بقسم خاص للبناء ونجارة الألمنيوم و PVC التقنية.',
+    'grupo.p2': 'والنتيجة مجموعة قادرة على تولّي كل شيء، من غلاف المبنى إلى آخر تركيب تقني، مع تنسيق الفرق والآجال والجودة دون أن يضطر العميل إلى التعامل مع عدة مورّدين.',
+    'pil.1.t': 'رؤية 360º', 'pil.1.p': 'من التصميم إلى تسليم المفاتيح: ننسّق أشغال البناء والنجارة والتركيبات كفريق واحد، دون وسطاء ولا تأخير.',
+    'pil.2.t': 'دقة تقنية', 'pil.2.p': 'قياسات دقيقة، تصنيع حسب الطلب ومواد معتمدة. كل مقطع ألمنيوم وكل لوحة كهربائية يستجيبان لمعيار محدد.',
+    'pil.3.t': 'مخاطَب واحد', 'pil.3.p': 'مدير مشروع واحد يخطط للقسمين معاً: وقت ضائع أقل بين الحِرف، وآجال وتكاليف مضبوطة.',
+    'div.kicker': 'الأقسام', 'div.title': 'قسمان. مخاطَب واحد',
+    'div.sub': 'البناء والتركيبات يعملان تحت سقف واحد: مسؤول واحد عن مشروعك بالكامل.',
+    'd1.kicker': 'القسم 01', 'd1.title': 'البناء',
+    'd1.lead': 'نجارة تقنية من الألمنيوم و PVC، إغلاقات وأشغال بتشطيبات راقية للمساكن والفنادق والمحلات والصناعة.',
+    'd1.c1': 'نجارة ألمنيوم حسب الطلب', 'd1.c2': 'نجارة PVC عالية الكفاءة', 'd1.c3': 'واجهات خفيفة وجدران ستارية',
+    'd1.c4': 'برجولات بيومناخية وإغلاقات زجاجية', 'd1.c5': 'ترميم شامل بنظام تسليم المفتاح', 'd1.c6': 'بناء جديد وتشييد',
+    'd.cta': 'اطلب دراسة',
+    'd2.kicker': 'القسم 02', 'd2.title': 'التركيبات',
+    'd2.lead': 'تصميم التركيبات التقنية وترخيصها وتركيبها وصيانتها للمباني السكنية والخدماتية والصناعية.',
+    'd2.c1': 'الطاقة الشمسية والبطاريات', 'd2.c2': 'الكهرباء ونقاط شحن السيارات', 'd2.c3': 'التكييف والتهوية والمضخات الحرارية',
+    'd2.c4': 'السباكة وشبكات المياه', 'd2.c5': 'الاتصالات وكاميرات المراقبة والتحكم في الدخول', 'd2.c6': 'أنظمة الحماية من الحرائق',
+    'met.title': 'أربع خطوات، فريق واحد',
+    's1.t': 'الدراسة', 's1.p': 'نزور الموقع، نستمع إلى احتياجاتك ونأخذ القياسات.',
+    's2.t': 'العرض', 's2.p': 'عرض سعر مفصّل حسب البنود، بآجال ومواصفات محددة.',
+    's3.t': 'التنفيذ', 's3.p': 'تصنيع وأشغال وتركيبات ينسّقها مدير مشروع واحد.',
+    's4.t': 'التسليم والخدمة', 's4.p': 'التشغيل، الوثائق، الضمان والصيانة.',
+    'proj.title': 'ما نقوم به، بالصور', 'f.all': 'الكل', 'cat.con': 'البناء', 'cat.ins': 'التركيبات',
+    'p1.t': 'واجهة مهوّاة وجدار ستاري', 'p1.p': 'مبنى مكاتب',
+    'p2.t': 'محطة شمسية للاستهلاك الذاتي', 'p2.p': 'مستودع صناعي',
+    'p3.t': 'إغلاقات زجاجية', 'p3.p': 'مجمّع فندقي',
+    'p4.t': 'لوحات كهربائية وتكييف', 'p4.p': 'مركز لوجستي',
+    'p5.t': 'ترميم شامل', 'p5.p': 'مكاتب شركة',
+    'p6.t': 'شبكة بيانات واتصالات', 'p6.p': 'مجمّع أعمال',
+    'c.title': 'لنتحدث عن مشروعك',
+    'c.lead': 'أخبرنا بما تحتاجه وسيجيبك القسم المعني في المجموعة بعرض مناسب.',
+    'c.office': 'المكتب', 'c.write': 'راسلنا',
+    'f.name': 'الاسم الكامل', 'f.email': 'البريد الإلكتروني', 'f.phone': 'الهاتف (اختياري)', 'f.division': 'القسم', 'f.msg': 'الرسالة',
+    'o.general': 'عام', 'o.integral': 'مشروع متكامل', 'f.send': 'إرسال الطلب',
+    'f.note': 'عند الإرسال سيُفتح تطبيق البريد لديك والرسالة جاهزة.',
+    'ft.desc': 'مجموعة متعددة التخصصات: البناء والتركيبات التقنية بمعيار واحد.',
+    'ft.about': 'من نحن', 'ft.quote': 'اطلب عرض سعر',
+  },
+};
+
+(function () {
+  const nodes = [...document.querySelectorAll('[data-i18n]')];
+  // Guardar el español original del HTML
+  I18N.es = { 'meta.title': document.title };
+  nodes.forEach(n => { I18N.es[n.dataset.i18n] ??= n.textContent; });
+
+  function setLang(lang) {
+    if (!I18N[lang]) lang = 'es';
+    const dict = I18N[lang];
+    nodes.forEach(n => { n.textContent = dict[n.dataset.i18n] ?? I18N.es[n.dataset.i18n]; });
+    document.title = dict['meta.title'];
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('.langs button').forEach(b => b.classList.toggle('is-active', b.dataset.lang === lang));
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+
+  document.querySelectorAll('.langs button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+
+  let initial = 'es';
+  try { initial = localStorage.getItem('lang') || ''; } catch (e) {}
+  if (!initial) {
+    const nav = (navigator.language || 'es').slice(0, 2).toLowerCase();
+    initial = I18N[nav] ? nav : 'es';
+  }
+  if (initial !== 'es') setLang(initial);
+})();
