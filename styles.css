@@ -223,11 +223,15 @@ h1, h2, h3, h4 { font-family: var(--display); color: var(--navy); line-height: 1
 
 /* Language switcher */
 .langs { display: flex; gap: 2px; padding: 4px; border-radius: 999px; border: 1px solid rgba(255,255,255,.3); }
-.langs button { border: 0; background: none; color: inherit; opacity: .7; font: 700 11px var(--body); letter-spacing: .08em; padding: 6px 10px; border-radius: 999px; cursor: pointer; transition: .2s; }
+.langs button { border: 0; background: none; padding: 5px; border-radius: 999px; cursor: pointer; opacity: .8; transition: .2s; display: grid; place-items: center; }
+.langs button svg { display: block; width: 24px; height: 16px; border-radius: 3px; box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
+.header.is-solid .langs button svg, .header.is-menu .langs button svg { box-shadow: 0 0 0 1px rgba(11,25,44,.15); }
 .langs button:hover { opacity: 1; }
-.langs button.is-active { background: var(--blue); color: #fff; opacity: 1; }
+.langs button.is-active { opacity: 1; background: var(--blue); }
+.langs button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 .header.is-solid .langs, .header.is-menu .langs { border-color: var(--line); }
-@media (max-width: 1280px) and (min-width: 1101px) { .nav { gap: 20px; } .nav__cta { padding: 14px 18px; } }
+.nav__cta { white-space: nowrap; }
+@media (max-width: 1480px) and (min-width: 1101px) { .nav { gap: 18px; letter-spacing: .1em; } .nav__cta { padding: 14px 18px; } }
 @media (max-width: 1100px) { .langs { align-self: flex-start; margin-top: 20px; border-color: var(--line); } }
 
 /* Arabic / RTL */
