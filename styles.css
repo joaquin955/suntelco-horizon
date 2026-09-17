@@ -232,7 +232,7 @@ h1, h2, h3, h4 { font-family: var(--display); color: var(--navy); line-height: 1
 .header.is-solid .langs, .header.is-menu .langs { border-color: var(--line); }
 .nav__cta { white-space: nowrap; }
 @media (max-width: 1480px) and (min-width: 1101px) { .nav { gap: 18px; letter-spacing: .1em; } .nav__cta { padding: 14px 18px; } }
-@media (max-width: 1100px) { .langs { align-self: flex-start; margin-top: 20px; border-color: var(--line); } }
+
 
 /* Arabic / RTL */
 [dir="rtl"] { --display: "Noto Kufi Arabic", Outfit, sans-serif; --body: "Noto Kufi Arabic", "Plus Jakarta Sans", sans-serif; }
@@ -253,3 +253,27 @@ h1, h2, h3, h4 { font-family: var(--display); color: var(--navy); line-height: 1
 [dir="rtl"] .nav a:not(.btn):hover::after { left: 0; }
 @media (max-width: 900px) { [dir="rtl"] .steps li:nth-child(3) { border-right: 0; } }
 @media (max-width: 600px) { [dir="rtl"] .steps li + li { border-right: 0; } [dir="rtl"] .stats div + div { padding-right: 16px; } }
+
+/* Header: banderas y CTA fuera del menú */
+.nav { margin-inline-start: auto; }
+.nav__cta { display: none; }
+.header__cta { padding: 14px 24px; white-space: nowrap; }
+.langs { flex: none; }
+@media (max-width: 1480px) and (min-width: 1101px) { .header__cta { padding: 14px 18px; } }
+@media (max-width: 1100px) {
+  .nav { margin-inline-start: 0; }
+  .nav__cta { display: inline-flex; }
+  .header__cta { display: none; }
+  .langs { margin-inline-start: auto; }
+  .header__inner { gap: 12px; }
+}
+@media (max-width: 480px) {
+  .header__inner { gap: 8px; }
+  .brand { gap: 9px; }
+  .brand__mark { height: 34px; }
+  .brand__text, .brand__text small { font-size: 12.5px; letter-spacing: .12em; }
+  .langs { padding: 3px; }
+  .langs button { padding: 4px; }
+  .langs button svg { width: 20px; height: 13px; }
+  .nav-toggle { padding: 6px; }
+}
